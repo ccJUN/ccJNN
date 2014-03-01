@@ -1,0 +1,25 @@
+/*ccjun min JQ*/
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		<!------
+		first day :
+		how to write $()
+		---->
+<input type="button" value="aaa" id="aaa" class="bbb">
+</body>
+<script type="text/javascript" src="ccminJQ.js"></script>
+<script type="text/javascript">
+	new cc(function(){
+		new cc("#aaa").click(function(){
+			alert(this.id);
+		})
+	})
+	new cc(function(){
+		alert('class');
+	})
+</script>
+</html>
